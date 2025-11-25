@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habit Tracker</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="hero">
+    <h1>Habit Tracker</h1>
+    <p class="tagline">Track your habits. Build daily and weekly streaks.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Add Habit Section -->
+    <section class="card">
+      <h2>Add Habit</h2>
+
+      <form id="habit-form">
+        <div class="form-row">
+          <input id="habit-name" type="text" placeholder="Habit name..." required />
+          <select id="habit-frequency">
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn primary">Add Habit</button>
+        <button type="button" id="clear-all" class="btn danger">Clear All</button>
+      </form>
+    </section>
+
+    <!-- Habit List Section -->
+    <section class="card">
+      <h2>Your Habits</h2>
+
+      <div id="habits-list" class="habits-list"></div>
+
+      <p id="empty-text" class="empty-text">No habits yet. Add your first one!</p>
+    </section>
+
+  </main>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
