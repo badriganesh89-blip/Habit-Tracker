@@ -18,26 +18,6 @@ Tracks your daily and weekly habits, stores progress using `localStorage`, and m
 
 ## 📁 Project Structure
 
-# Habit Tracker
-
-A clean and simple Habit Tracker web app built using **HTML**, **CSS**, and **JavaScript**.  
-Tracks your daily and weekly habits, stores progress using `localStorage`, and maintains streaks for consistency.
-
----
-
-## 🚀 Features
-
-- Add habits with **Daily** or **Weekly** frequency
-- Mark habits as completed
-- **Streak tracking** (daily or weekly)
-- All data saved using **LocalStorage**
-- Clean and minimal UI design
-- Fully offline — no backend required
-
----
-
-## 📁 Project Structure
-
 ---
 
 ## 🖥️ How to Run
